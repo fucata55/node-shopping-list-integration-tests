@@ -4,7 +4,7 @@ deploy:
   provider: heroku
   edge: true
   api_key:
-    secure: 8bff6e67-45fb-49d8-a1a8-2266acb85838
+    secure: 488ad498-8a97-485b-b6f0-c6f7384ba1fe
   app: mysterious-savannah-61301
   on:
     repo: fucata55/node-shopping-list-integration-tests
