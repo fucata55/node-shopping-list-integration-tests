@@ -2,6 +2,7 @@ language: node_js
 node_js: node
 deploy: 
   provider: heroku
+  edge: true
   api_key:
     secure: 50de0b02-881c-46c4-98a2-6262988e2add
   app: mysterious-savannah-61301
