@@ -1,9 +1,9 @@
 language: node_js
 node_js: node
-deploy:
+deploy: 
   provider: heroku
   api_key:
-    secure: ZEc4zJWi4uDa0P53OzZ9pown6YB9+4fxL1WRWBfLDklvfXJKJC2c+FmSIiN7NUbDg26zT9cw6rloAwh3o/e/j8yL/OO0l+9NbhUw2RgWecmaq4BWAuECknguAXQw6iQZ1wKzV25RSLqn/KJcEUzC2qBy30o7e/F//4R65jY9YmUItslKX7ZEApOj6iLF9xlUo6zYDeX57tDpJxkuUis7TVosiAonQ8wrxM91HJ+ZQOdUdCRZJZZoaYGKcYSZY0lsdDM453YIQZ8GToubpg8D6idh0GLe7Jn2dFjvFgR4WVHHlkSAnxmgg5p6DC0kcFjnedSs5mrAQZTvm1rEHZlTtEBkV2adJ83O7CI22pLuH2RwyNLGJm7RBL0d0jV4/FAO7bsOCUCcxMCLA/EJwS7zwczwVCGaApogfUpX8ALKKNGBljfsl7TBdbH8yljEQx3Dl1oNu6EbjtuoPxfNmsLYwd8FzGazF62Zvo/FehHYexKkrcUn9Pu0EyA0sjJMqh7UtjKtbQzVyzyJ9QpcCD40alwUenMT0euSlZYqcGAHTYEbraoGrBveMmP81meluumtGf+l04nw/wRYgG5+BTfk/vvJD86wb9X9qIsTPDAmrD1FzB/zpq+ykB5UtO2yCA9z/9QIIIKVDh39uav2K4OvLvwluoxZ781BkJ684Dd7rt8=
-  app: mysterious-savannah-61301
+    secure: 50de0b02-881c-46c4-98a2-6262988e2add
+    app: mysterious-savannah-61301
   on:
     repo: fucata55/node-shopping-list-integration-tests
